@@ -12,6 +12,9 @@ Sentry.init({
   debug: true,
   dsn: SENTRY_DSN,
   tracesSampleRate: 1,
+  initialScope: (scope) => {
+    scope.setTag("INIT", "SERVER");
+  },
   // Note: if you want to override the automatic release value, do not set a
   // `release` value here - use the environment variable `SENTRY_RELEASE`, so
   // that it will also get attached to your source maps
