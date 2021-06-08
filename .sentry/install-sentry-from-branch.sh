@@ -36,6 +36,8 @@ echo "SUBSTITUTING LOCAL SDK FOR PUBLISHED ONE AND INSTALLING PROJECT DEPENDENCI
 echo "yarn add file:sentry-javascript/packages/nextjs"
 yarn add file:sentry-javascript/packages/nextjs
 
+ls -R .next | grep -v ".next/cache"
+
 # In case for any reason we ever need to link the local SDK rather than adding it as a file dependency:
 
 # for abs_package_path in ${PROJECT_DIR}/sentry-javascript/packages/*; do
