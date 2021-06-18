@@ -1,1 +1,1 @@
-export BRANCH_NAME=abhi/vercel-testing
+export BRANCH_NAME=abhi-server-require-alt

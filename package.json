@@ -8,8 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@sentry/nextjs": "6.5.1",
-    "next": "latest",
+    "@sentry/nextjs": "6.7.1",
+    "next": "^11.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
